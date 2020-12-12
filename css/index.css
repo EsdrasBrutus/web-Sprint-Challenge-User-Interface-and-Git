@@ -31,6 +31,24 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+
+.logo{
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 1.5em;
+
+}
+
+.jumbo-header_img{
+    margin:2em 0;
+}
+
 ol, ul {
 	list-style: none;
 }
