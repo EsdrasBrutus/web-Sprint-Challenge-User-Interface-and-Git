@@ -35,7 +35,7 @@ body {
 .nav a{
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    
     margin: 0 1.6em;
 
 }
@@ -208,7 +208,7 @@ footer nav a {
 .mid-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     border-top: dashed black 1px;
     
 }
@@ -217,22 +217,21 @@ footer nav a {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    width: 50%;
-    padding: 1em;
+    width: 45%;
     border-bottom: dashed black 1px;
-    
+    margin-top: 2em;
 }
 
 .mid-about img{
     align-self: start;
-    padding: 1em 0;
-    
+    padding: 1em 0;   
+    max-width:100%;
+    max-height:100%;
 }
-
 
 .mid-about .learn-more{
     align-self: start;
-    font-weight: bold;
+    
 }
 
 .learn-more{
@@ -245,5 +244,5 @@ footer nav a {
 }
 
 .last-section{
-    margin: 3em 1em;
+    margin: 3em 1em 2em 2em;
 }
